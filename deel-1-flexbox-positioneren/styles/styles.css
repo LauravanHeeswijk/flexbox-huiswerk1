@@ -1,1 +1,43 @@
-/*Schrijf hier jouw CSS*/
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item1, .item2, .item3 {
+    flex-basis: 500px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-left {
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+.centered {
+    justify-self: center;
+    align-self: center;
+}
+
+.bottom-right {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+

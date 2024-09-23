@@ -1,1 +1,47 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    /*min-height: 100vh <--- moet ik deze toevoegen? */
+    flex-basis: auto;
+}
+
+/*--------------Header--------------*/
+header {
+    display: flex;
+    min-height: 12.5vh; /* <---- Klopt dit? */
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/*--------------Body--------------*/
+main {
+    display: flex;
+    min-height: 75vh; /* <---- Klopt dit? */
+    flex-basis: auto;
+}
+
+article {
+    flex-grow: 3;
+    flex-shrink: 1
+}
+
+nav {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+aside {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+/*--------------Footer--------------*/
+footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 12.5vh; /* <---- Klopt dit? */
+    flex-basis: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+

@@ -1,1 +1,43 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.col-1 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 20vw;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+/*-------------------Header---------------------*/
+header {
+    flex-basis: 150px;
+}
+
+
+/*!*-------------------Main---------------------*!*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+article {
+    justify-content: flex-start;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+/*!*-------------------Footer---------------------*!*/
+footer {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
